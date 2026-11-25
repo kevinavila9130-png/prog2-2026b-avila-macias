@@ -10,6 +10,7 @@ from curso import Curso
 
 def guardar(sistema, ruta):
     """Escribe personas, cursos e inscripciones en un archivo JSON."""
+      # Se crea una estructura de datos que almacenará personas y cursos.
     datos = {
         "personas": [],
         "cursos": []
