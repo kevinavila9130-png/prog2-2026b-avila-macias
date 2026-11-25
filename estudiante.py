@@ -1,3 +1,4 @@
+#clase hija Estudiante con herencia y poliformismo#
 """Define la clase Estudiante, hija de Persona."""
 
 from persona import Persona
