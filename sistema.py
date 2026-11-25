@@ -10,7 +10,10 @@ class Sistema:
 
     def __init__(self):
         """Inicializa las colecciones internas del sistema."""
+        # Diccionario que almacena personas utilizando su identificador como clave.
         self._personas = {}
+        
+    # Diccionario que almacena cursos utilizando su clave como identificador.
         self._cursos = {}
 
     def registrar(self, objeto):
