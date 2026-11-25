@@ -15,8 +15,9 @@ def guardar(sistema, ruta):
         "personas": [],
         "cursos": []
     }
-
+# Se recorren las personas registradas para convertirlas en datos almacenables.
     for persona in sistema._personas.values():
+# Se identifica el tipo de persona para almacenar sus atributos específicos.
         if isinstance(persona, Estudiante):
             datos["personas"].append({
                 "tipo": "estudiante",
